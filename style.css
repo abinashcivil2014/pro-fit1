@@ -26,8 +26,6 @@ background-color: lightblue;
 .btn-lg
 {
     background: green;
-    margin-top: 10px;
-    margin-left: 620px;
 }
 .btn-gp {
     background: #dd4b32;
@@ -87,17 +85,22 @@ margin-top: 5px;
 
 
 .cover-container {
-    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(work.jpeg)  center no-repeat ;
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(work.jpeg) center no-repeat;
     background-size: cover;
     height: 800px;
     color: white;
 }
 .inner-container {
 
-    padding-top: 21%;
     color: black;
     font-weight: 800;
+    position: relative;
+    top: 35%;
+}
 
+.footer-container{
+    padding-top: 22.5%;
+    color:whitesmoke;
 }
 
 .glow {
