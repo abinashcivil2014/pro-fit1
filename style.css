@@ -1,9 +1,39 @@
+.carousel-item img{
+    height: 714px;
+    opacity: 80%;
+}
+
+
+
+
 .carousel-caption {
-background-color: lightblue;
-  color:#1d4c7a;
+  color:#fff!important;
   width: 100%;
   left: 0;
+  font-weight: bold;
+  position:absolute;
+  top: 30%;
+  height: 30%;
+  width: 60%;
+  margin-left: 19%;
+  background-color: rgba(39, 40, 66, 0.363);
 }
+.carousel-caption p{
+    font-size: 40px;
+}
+
+.btn-outline-primary{
+    color: #fff;
+    background-image: none;
+    background-color: transparent;
+    border-color: whitesmoke;
+    border-radius: 30px;
+    height: 30%;
+    width:30%;
+
+}
+
+
 
 .alert-danger {
     margin-bottom: -5px;
@@ -120,3 +150,160 @@ margin-top: 5px;
   }
 }
 
+/*
+/////////////////Services////////////////
+*/
+
+.services{
+    height: 600px;
+    width: 100%;
+    padding: 30px 0px 50px;
+    background-color: rgba(74, 98, 105, 0.445);
+}
+
+.services h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.card{
+    margin: 10px;
+}
+.card-body{
+height: 70px;
+}
+
+@media(min-width: 280px) and (max-width:319px){
+    .services{
+        height:700px 
+     }
+     .card-title{
+         font-size: 8px;
+         font-weight: bolder;
+         max-width: 100%;
+     }
+     .carousel-item img{
+        height: 300px;
+    }
+    .wk-container card-text{
+        font-size: 10px; 
+            position: relative;
+            font-weight: bold;
+    }
+    .wk-container h5{
+        font-size: 105%;
+    }
+
+}
+
+@media(min-width: 320px) and (max-width:479px){
+    .services{
+        height:1600px 
+     }
+
+     .carousel-item img{
+        height: 300px;
+    }
+    .wk-container p1{
+        font-size: 12px; 
+        position: relative;
+        font-weight: bold;
+    }
+    .wk-container h5{
+        font-size: 90%;
+        }
+}
+
+@media(min-width: 768px) and (max-width:1024px){
+    .services{
+        height:3000px 
+     }
+     .card-title{
+        font-size: 22px;
+       
+    }
+    .wk-container p1{
+        font-size: 30px; 
+        position: relative;
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 576px) and (max-width:767px){
+    .services{
+        height:2500px 
+     }
+     .card-title{
+        font-size: 21px;  
+    }
+    .wk-container p1{
+        font-size: 30px; 
+        position: relative;
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 480px) and (max-width:575px){
+    .services{
+        height:1900px 
+     }
+     .card-title{
+        font-size: 21px;  
+    }
+
+    .card-body{
+        height: 80px;
+        }
+        .wk-container p1{
+            font-size: 20px; 
+            position: relative;
+            font-weight: bold;
+        }
+        .wk-container h5{
+            font-size: 110%;
+            }
+}
+
+
+/*///////////////////////workout/////////////////*/
+
+.workout-container {
+    top: 30%;
+    height: 1600px;
+}
+
+.workout-container img{
+    height: 300px;
+    width: 100%;
+}
+.wk-container h5{
+    color: white;
+    position: absolute;
+    top:80%;
+    background-color: rgba(32, 27, 25, 0.459);
+}
+.wk-container p{
+    color:  white;
+    position: absolute;
+    top:90%;
+    background-color:rgba(32, 27, 25, 0.459);
+}
+
+.book-glow {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    position:absolute;
+    margin-top: 15%;
+    margin-left: 65%;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px rgb(184, 28, 28), 0 0 30px  rgb(184, 28, 28), 0 0 40px  rgb(184, 28, 28), 0 0 50px  rgb(184, 28, 28), 0 0 60px rgb(184, 28, 28), 0 0 70px  rgb(184, 28, 28);
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px  rgb(184, 28, 28) 0 0 40px  rgb(184, 28, 28), 0 0 50px  rgb(184, 28, 28), 0 0 60px  rgb(184, 28, 28), 0 0 70px  rgb(184, 28, 28), 0 0 80px  rgb(184, 28, 28);
+    }
+  }
